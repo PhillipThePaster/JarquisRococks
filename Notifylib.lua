@@ -1,6 +1,3 @@
--- Powered by SNUB Hook optimizer.
--- Latest version of SNUB [{verison]
-
 
 
 if NotiFyControlLoaded and not _G.NotifyControl == true then
