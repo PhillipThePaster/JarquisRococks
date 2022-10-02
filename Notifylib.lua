@@ -42,7 +42,7 @@ function NotifyCore:CreateNotify(titled, ddesc, callback)
     NotifyMain.Name = "NotifyMain"
     NotifyMain.Parent = NotifyControl
     NotifyMain.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-    NotifyMain.Position = UDim2.new(0.00694638537, 0, 0.0111111104, 0)
+    NotifyMain.Position = UDim2.new(2, 0, 6, 0)
     NotifyMain.Size = UDim2.new(0, 270, 0, 124)
     
     UICorner.CornerRadius = UDim.new(0, 3)
@@ -218,3 +218,10 @@ function NotifyCore:ExitClient()
 end
 
 return NotifyCore
+
+
+
+
+
+
+
